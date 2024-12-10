@@ -13,9 +13,11 @@ public class DriverManager {
     private static final String WEB_DRIVER_TYPE = "Chrome";
 
     public DriverManager() {
+
         switch (WEB_DRIVER_TYPE.toUpperCase()) {
             case "CHROME":
                 driver = new ChromeDriver();
+                driver.manage().window().maximize();
                 System.out.println("Chrome driver is opened");
                 break;
             case "FIREFOX":
@@ -37,6 +39,7 @@ public class DriverManager {
     }
 
     public static DriverManager getInstance() {
+
         if (instance == null) {
             instance = new DriverManager();
         }
@@ -44,6 +47,7 @@ public class DriverManager {
     }
 
     public WebDriver getDriver(){
+
         return driver;
     }
 }
