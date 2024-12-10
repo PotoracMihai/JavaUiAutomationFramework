@@ -18,9 +18,17 @@
         <selenium-firefox-driver.version>4.25.0</selenium-firefox-driver.version>
         <selenium-safari-driver.version>4.25.0</selenium-safari-driver.version>
         <selenium-edge-driver.version>4.25.0</selenium-edge-driver.version>
+        <javafaker.version>1.0.2</javafaker.version>
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>${javafaker.version}</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -62,8 +70,6 @@
             <artifactId>selenium-edge-driver</artifactId>
             <version>${selenium-edge-driver.version}</version>
         </dependency>
-
-
     </dependencies>
 
     <build>
