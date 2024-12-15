@@ -2,6 +2,7 @@ package com.opencart;
 
 import com.opencart.managers.DriverManager;
 import com.opencart.managers.RandomDataManager;
+import com.opencart.managers.ScrollManager;
 import org.openqa.selenium.*;
 
 
@@ -47,8 +48,8 @@ public class TestRunner {
         passwordInput.sendKeys(passwordData);
 
         WebElement privacyToggleBar = driver.findElement(By.name("agree"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", privacyToggleBar);
-        Thread.sleep(500);
+        ScrollManager.scrollToElement(privacyToggleBar);
+
         privacyToggleBar.click();
 
         WebElement continueButton = driver.findElement(By.cssSelector("button[type='submit']"));
