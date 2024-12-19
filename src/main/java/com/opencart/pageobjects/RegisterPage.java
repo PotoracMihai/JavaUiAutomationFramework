@@ -38,6 +38,7 @@ public class RegisterPage extends Page {
     }
 
     public void clickOnTheContinueButton() {
+        ScrollManager.scrollToElement(continueBtn);
         continueBtn.click();
     }
 
