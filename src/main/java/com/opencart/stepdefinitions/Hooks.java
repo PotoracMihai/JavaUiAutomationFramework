@@ -21,7 +21,7 @@ public class Hooks {
     public void executeAfterEachTest() {
 
         System.out.println("The test is completed");
-        DriverManager.getInstance().getDriver();
+        DriverManager.getInstance().quiteDriver();
     }
 
     @AfterAll

@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/main/java/com/opencart/feature",
-        glue = "com.opencart.stepdefinition",
+        glue = "com/opencart/stepdefinitions",
         tags = "@run"
 )
 
