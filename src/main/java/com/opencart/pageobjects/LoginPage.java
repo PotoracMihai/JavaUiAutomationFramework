@@ -1,12 +1,13 @@
 package com.opencart.pageobjects;
 
+import com.opencart.managers.ExplicitWaitManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPage extends Page{
+public class LoginPage extends Page {
 
-    public LoginPage(WebDriver driver){
+    public LoginPage(WebDriver driver) {
         super(driver);
     }
 
@@ -19,12 +20,16 @@ public class LoginPage extends Page{
     @FindBy(css = "button[type='submit']")
     private WebElement loginBtn;
 
-    public void completeTheLoginForm(String email, String password){
+    public void completeTheLoginForm(String email, String password) {
+
+        ExplicitWaitManager.waitTillElementIsVisible(emailInput);
         emailInput.sendKeys(email);
+        ExplicitWaitManager.waitTillElementIsVisible(passwordInput);
         passwordInput.sendKeys(password);
     }
 
-    public void clickOnTheLoginButton(){
+    public void clickOnTheLoginButton() {
+
         loginBtn.click();
     }
 }
