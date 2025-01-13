@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/java/com/opencart/feature",
         glue = "com/opencart/stepdefinitions",
-        tags = "@run"
+        tags = "",
+        plugin = {"pretty", "json:target/reports/cucumber.json", "html:target/reports/cucumber.html"}
 )
 
 public class CucumberTestRunner {
