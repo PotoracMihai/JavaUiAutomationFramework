@@ -4,6 +4,7 @@ import com.opencart.managers.ConfigReaderManager;
 import com.opencart.managers.DriverManager;
 import com.opencart.managers.ExplicitWaitManager;
 import com.opencart.managers.ScrollManager;
+import com.opencart.pageobjects.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -74,5 +75,24 @@ public class GenericSteps {
         ExplicitWaitManager.waitTillElementIsClickable(webClickableElement);
         webClickableElement.click();
         logger.log(Level.INFO, "The button: " + clickableElement + " from page " + pageName + " has been clicked");
+    }
+
+    @And("The {string} from {string} is populated with {string}")
+    public void theFromIsPopulatedWith(String elementName, String pageName, String value) {
+        WebDriver driver = DriverManager.getInstance().getDriver();
+
+        switch (pageName) {
+            case "HomePage":
+                HomePage homePage = new HomePage(driver);
+                if (elementName.equalsIgnoreCase("searchInput")) {
+                    homePage.enterSearchKeyword(value);
+                } else {
+                    throw new IllegalArgumentException("Element '" + elementName + "' is not defined for HomePage.");
+                }
+                break;
+            // Adaugă aici alte cazuri, de ex. RegisterPage, LoginPage, etc.
+            default:
+                throw new IllegalArgumentException("Page '" + pageName + "' is not supported in this step definition.");
+        }
     }
 }
