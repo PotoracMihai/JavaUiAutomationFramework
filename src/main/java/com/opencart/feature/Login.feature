@@ -13,3 +13,17 @@ Feature: Login related tests
       | email           | password |
       | email@gmail.com | data123! |
       | email@gmail.com | !        |
+
+  @fail
+  Scenario Outline: User gets an error when leaving email or password blank
+    Given The "/index.php?route=account/login&language=en-gb" endpoint is accessed
+    And the login form is populated with the following data:
+      | <email> |
+      | <password> |
+    When The "loginBtn" from "LoginPage" is clicked
+    Then the following list of error messages is displayed:
+      | Warning: No match for E-Mail Address and/or Password. |
+    Examples:
+      | email           | password |
+      |                 | data123! |
+      | email@gmail.com |          |
