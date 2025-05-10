@@ -7,10 +7,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public abstract class Page {
 
+    // Declara variabila driver ca protected pentru a putea fi folosită în clasele derivate
+    protected WebDriver driver;
+
     public Page(WebDriver driver) {
+        this.driver = driver; // Inițializează driver-ul
         PageFactory.initElements(driver, this);
     }
 
+    // Elementele comune
     @FindBy(xpath = "//i[@class='fa-solid fa-user']")
     protected WebElement myAccountIcon;
 
