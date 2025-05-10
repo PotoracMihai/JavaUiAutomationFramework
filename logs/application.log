@@ -705,3 +705,97 @@
 2025-04-09 09:55:38,469 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
 2025-04-09 09:55:38,543 INFO c.o.s.Hooks [main] The test is completed
 2025-04-09 09:55:38,760 INFO c.o.s.Hooks [main] The test execution finished
+2025-05-10 14:19:41,957 INFO c.o.s.Hooks [main] The execution of the test suite started
+2025-05-10 14:19:42,150 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:10,788 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/index.php?route=account/login&language=en-gb has been accessed
+2025-05-10 14:20:16,216 INFO c.o.s.GenericSteps [main] The button: loginBtn from page LoginPage has been clicked
+2025-05-10 14:20:16,727 INFO c.o.s.GenericSteps [main] The asserted message is: Warning: No match for E-Mail Address and/or Password.
+2025-05-10 14:20:16,750 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:20:17,048 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:18,196 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/index.php?route=account/login&language=en-gb has been accessed
+2025-05-10 14:20:23,501 INFO c.o.s.GenericSteps [main] The button: loginBtn from page LoginPage has been clicked
+2025-05-10 14:20:24,015 INFO c.o.s.GenericSteps [main] The asserted message is: Warning: No match for E-Mail Address and/or Password.
+2025-05-10 14:20:24,034 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:20:24,337 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:25,345 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/index.php?route=account/login&language=en-gb has been accessed
+2025-05-10 14:20:25,394 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:20:25,678 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:26,681 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/index.php?route=account/login&language=en-gb has been accessed
+2025-05-10 14:20:26,834 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:20:27,093 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:28,146 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:20:28,767 INFO c.o.p.RegisterPage [main] The email is: rudolf.lakin@yahoo.com and the password is: fkfkcbwfulhhj
+2025-05-10 14:20:33,877 INFO c.o.s.GenericSteps [main] The button: privacyToggleBar from page RegisterPage has been clicked
+2025-05-10 14:20:38,976 INFO c.o.s.GenericSteps [main] The button: continueBtn from page RegisterPage has been clicked
+2025-05-10 14:20:40,001 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:20:40,247 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:41,339 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:20:41,781 INFO c.o.p.RegisterPage [main] The email is: cassidy.armstrong@hotmail.com and the password is: mttb63z8355l
+2025-05-10 14:20:46,882 INFO c.o.s.GenericSteps [main] The button: continueBtn from page RegisterPage has been clicked
+2025-05-10 14:20:47,902 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:20:48,198 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:49,353 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:20:49,810 INFO c.o.p.RegisterPage [main] The email is: fermin.morar@gmail.com and the password is: 321
+2025-05-10 14:20:54,922 INFO c.o.s.GenericSteps [main] The button: continueBtn from page RegisterPage has been clicked
+2025-05-10 14:20:55,429 INFO c.o.s.GenericSteps [main] The asserted message is: Password must be between 4 and 20 characters!
+2025-05-10 14:20:55,452 INFO c.o.s.GenericSteps [main] The asserted message is: Warning: You must agree to the Privacy Policy!
+2025-05-10 14:20:55,466 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:20:55,733 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:20:56,719 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:20:57,174 INFO c.o.p.RegisterPage [main] The email is: truman.bauch@gmail.com and the password is: 1234567890123456789341234567890123566787868768767868768
+2025-05-10 14:21:02,280 INFO c.o.s.GenericSteps [main] The button: continueBtn from page RegisterPage has been clicked
+2025-05-10 14:21:02,788 INFO c.o.s.GenericSteps [main] The asserted message is: Password must be between 4 and 20 characters!
+2025-05-10 14:21:02,809 INFO c.o.s.GenericSteps [main] The asserted message is: Warning: You must agree to the Privacy Policy!
+2025-05-10 14:21:02,822 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:21:03,104 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:21:04,209 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:21:04,642 INFO c.o.p.RegisterPage [main] The email is: sherika.erdman@gmail.com and the password is: 12345678901234567890123
+2025-05-10 14:21:09,745 INFO c.o.s.GenericSteps [main] The button: continueBtn from page RegisterPage has been clicked
+2025-05-10 14:21:10,249 INFO c.o.s.GenericSteps [main] The asserted message is: Last Name must be between 1 and 32 characters!
+2025-05-10 14:21:10,269 INFO c.o.s.GenericSteps [main] The asserted message is: Warning: You must agree to the Privacy Policy!
+2025-05-10 14:21:10,282 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:21:10,520 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:21:11,655 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:21:16,991 INFO c.o.s.GenericSteps [main] The button: continueBtn from page RegisterPage has been clicked
+2025-05-10 14:21:17,497 INFO c.o.s.GenericSteps [main] The asserted message is: First Name must be between 1 and 32 characters!
+2025-05-10 14:21:17,516 INFO c.o.s.GenericSteps [main] The asserted message is: Last Name must be between 1 and 32 characters!
+2025-05-10 14:21:17,527 INFO c.o.s.GenericSteps [main] The asserted message is: E-Mail Address does not appear to be valid!
+2025-05-10 14:21:17,541 INFO c.o.s.GenericSteps [main] The asserted message is: Password must be between 4 and 20 characters!
+2025-05-10 14:21:17,552 INFO c.o.s.GenericSteps [main] The asserted message is: Warning: You must agree to the Privacy Policy!
+2025-05-10 14:21:17,564 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:21:17,833 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:21:19,044 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:21:19,456 INFO c.o.p.RegisterPage [main] The email is: invalid_email and the password is: ValidPass123
+2025-05-10 14:21:24,571 INFO c.o.s.GenericSteps [main] The button: privacyToggleBar from page RegisterPage has been clicked
+2025-05-10 14:21:29,682 INFO c.o.s.GenericSteps [main] The button: continueBtn from page RegisterPage has been clicked
+2025-05-10 14:21:30,192 INFO c.o.s.GenericSteps [main] The asserted message is: E-Mail Address does not appear to be valid!
+2025-05-10 14:21:35,244 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:21:35,491 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:21:36,650 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:21:41,989 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
+2025-05-10 14:21:42,052 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:21:42,317 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:21:43,375 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:21:48,731 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
+2025-05-10 14:21:48,760 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:21:49,061 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:21:50,132 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:21:55,464 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
+2025-05-10 14:21:55,510 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:21:55,794 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:21:56,888 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:22:02,237 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
+2025-05-10 14:22:02,285 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:22:02,555 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:22:03,624 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:22:08,983 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
+2025-05-10 14:22:09,028 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:22:09,295 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:22:10,373 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:22:15,688 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
+2025-05-10 14:22:15,719 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:22:15,975 INFO c.o.s.Hooks [main] The test is started
+2025-05-10 14:22:17,020 WARN c.o.s.GenericSteps [main] The page https://tekwillacademy-opencart.online/ has been accessed
+2025-05-10 14:22:22,366 INFO c.o.s.GenericSteps [main] The button: searchBtn from page HomePage has been clicked
+2025-05-10 14:22:22,395 INFO c.o.s.Hooks [main] The test is completed
+2025-05-10 14:22:22,667 INFO c.o.s.Hooks [main] The test execution finished

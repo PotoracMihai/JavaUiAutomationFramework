@@ -25,3 +25,17 @@ Feature: Search functionality tests
       | Iphone    |
       | IPHONE    |
       | iPhOnE    |
+
+  @fail
+  Scenario: Search fails with empty keyword
+    Given The "/" endpoint is accessed
+    And The "searchInput" from "HomePage" is populated with ""
+    When The "searchBtn" from "HomePage" is clicked
+    Then The message "There is no product that matches the search criteria." is displayed
+
+  @fail
+  Scenario: The system displays no results when searching for special characters
+    Given The "/" endpoint is accessed
+    And The "searchInput" from "HomePage" is populated with "@#$%^&*"
+    When The "searchBtn" from "HomePage" is clicked
+    Then The message "There is no product that matches the search criteria." is displayed

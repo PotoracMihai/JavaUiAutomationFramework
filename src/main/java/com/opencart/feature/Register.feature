@@ -35,3 +35,29 @@ Feature: The Register flow test suite
       | Random    |  | Lungu                                          | 321                                                     | Password       | 4   | 20  |
       | Random    |  | Lungu                                          | 1234567890123456789341234567890123566787868768767868768 | Password       | 4   | 20  |
       | Random    |  | 1234567890123456789012312345678901234567890123 | 12345678901234567890123                                 | Last Name      | 1   | 32  |
+
+  @fail
+  Scenario: User cannot register without entering any data
+    Given The "/" endpoint is accessed
+    And Register Page is accessed from the Home Page buttons
+    When The "continueBtn" from "RegisterPage" is clicked
+    Then the following list of error messages is displayed:
+      | First Name must be between 1 and 32 characters! |
+      | Last Name must be between 1 and 32 characters!  |
+      | E-Mail Address does not appear to be valid!     |
+      | Password must be between 4 and 20 characters!   |
+      | Warning: You must agree to the Privacy Policy!  |
+
+  @fail
+  Scenario: User cannot register with invalid email format
+    Given The "/" endpoint is accessed
+    And Register Page is accessed from the Home Page buttons
+    And the register fromm is populated as following:
+      | firstName | Random  |
+      | lastName  | Random  |
+      | email     | invalid_email |
+      | password  | ValidPass123 |
+    And The "privacyToggleBar" from "RegisterPage" is clicked
+    When The "continueBtn" from "RegisterPage" is clicked
+    Then the following list of error messages is displayed:
+      | E-Mail Address does not appear to be valid! |
